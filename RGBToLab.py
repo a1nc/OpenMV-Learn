@@ -1,4 +1,4 @@
-  def gamma(x):
+def gamma(x):
     if 0.04045 < x:
         return pow((x+0.055)/1.055, 2.4)
     else:
