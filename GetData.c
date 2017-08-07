@@ -12,7 +12,6 @@ int MyAtoI(unsigned char param)
 
 void DataAnalysis(unsigned char *buf,unsigned char buf_len)
 {
-	unsigned char *p_str;
 	unsigned char pos=0;
 	unsigned char flag=0;
 	int cksum=0;
